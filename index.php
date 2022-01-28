@@ -27,8 +27,9 @@ class Movie {
 
     public function geekInfo(){
         return $this->original_language . ' ' . $this->original_title;
-    }
+    // aggiungo metodo per stmapa
 
+    }
 }
 // inserisco nomi anche se in questo caso dovrei mettere id numerici
 $tigre = new Movie('La tigre e il dragone - La spada del destino', 'Crouching Tiger, Hidden Dragon: Sword of Destiny', '2016', 'inglese' );
@@ -47,7 +48,7 @@ echo '<h1></h1>';
 var_dump($fury);
 echo '<h1></h1>';
 var_dump($max);
-
+            
 
 ?>
 
